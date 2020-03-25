@@ -11,7 +11,7 @@ This works for both online and offline just make sure to copy over the files nee
 
 If you add custom locations/buildings to the map and want loot to spawn on these new locations you need to do as follows.
 
-In the mission files init.c you want to find the lines:
+In the mission files ```init.c``` you want to find the lines:
 
 ```
 	//INIT ECONOMY--------------------------------------
@@ -21,8 +21,17 @@ In the mission files init.c you want to find the lines:
 	
 	//GetCEApi().ExportProxyData( "10240 0 10240", 20480 );  //Center of map, radius of how far to go out and find buildings.
 ```
-Now remove the two // infront of the line ```GetCEApi().ExportProxyData( "10240 0 10240", 20480 );  //Center of map, radius of how far to go out and find buildings.```
+Now remove the two ```//``` infront of the line ```GetCEApi().ExportProxyData( "10240 0 10240", 20480 );  //Center of map, radius of how far to go out and find buildings.```.
+Load into the server and login as the server admin as followed ```#login "adminpassword``` Then type ```#shutdown``` and wait for the server to shutdown.
+Reopen the ```init.c``` and readd in the two ```//```.
+Load the server and you will be good to go.
 
 ## Authors
 
 * **Jake Tommas** - *Map Creator* - [Jake Tommas](https://steamcommunity.com/id/lifes_a_bitch_get_over_it/)
+
+## Contributors
+
+* Zeroy - *Helping with custom surface setup*
+* Arkensor - *Being an all round Dayz Modding God*
+* Anyone else from the Dayz Modders [discord](https://discord.gg/eMhjTWS)

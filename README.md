@@ -26,7 +26,7 @@ Load into the server and login as the server admin as followed ```#login "adminp
 Reopen the ```init.c``` and readd in the two ```//```.
 Load the server and you will be good to go.
 
-## Authors
+## Author
 
 * **Jake Tommas** - *Map Creator* - [Jake Tommas](https://steamcommunity.com/id/lifes_a_bitch_get_over_it/)
 

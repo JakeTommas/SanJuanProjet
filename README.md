@@ -9,6 +9,4 @@ This works for both online and offline just make sure to copy over the files nee
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Jake Tommas** - *Map Creator* - [Jake Tommas](https://steamcommunity.com/id/lifes_a_bitch_get_over_it/)

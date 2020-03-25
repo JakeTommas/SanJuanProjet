@@ -1,6 +1,6 @@
 # SanJuanProjet
 
-Central economy files for a San Juan Project server
+Pre-configured mission file for the SanJuanProject Map with CE and custom spawnpoints for players, animals and zombies.
 
 ## Setup
 

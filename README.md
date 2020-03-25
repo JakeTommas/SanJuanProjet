@@ -13,14 +13,13 @@ If you add custom locations/buildings to the map and want loot to spawn on these
 
 In the mission files ```init.c``` you want to find the lines:
 
-```
-	//INIT ECONOMY--------------------------------------
+```	//INIT ECONOMY--------------------------------------
 	Hive ce = CreateHive();
 	if ( ce )
 		ce.InitOffline();
 	
-	//GetCEApi().ExportProxyData( "10240 0 10240", 20480 );  //Center of map, radius of how far to go out and find buildings.
-```
+	//GetCEApi().ExportProxyData( "10240 0 10240", 20480 );  //Center of map, radius of how far to go out and find buildings.```
+
 Now remove the two ```//``` infront of the line ```GetCEApi().ExportProxyData( "10240 0 10240", 20480 );  //Center of map, radius of how far to go out and find buildings.```.
 Load into the server and login as the server admin as followed ```#login "adminpassword``` Then type ```#shutdown``` and wait for the server to shutdown.
 Reopen the ```init.c``` and readd in the two ```//```.
